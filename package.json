@@ -87,7 +87,7 @@
             "type": "object",
             "description": "A list of customized languages where suggestions are enabled with specified regex matching rules.",
             "default": {
-              "rust": "r#class_name_here:\"([^\"]*)\""
+              "rust": "class_name_here:\"([\\w- ]*)"
             }
           }
         }
